@@ -6,7 +6,11 @@ WriteMakefile
   'NAME' => 'WWW::LinkChecker::Internal',
   'VERSION_FROM' => 'lib/WWW/LinkChecker/Internal.pm',
   'PREREQ_PM' => {
-                   'Test::More' => 0
+                   'Getopt::Long' => 0,
+                   'Test::More' => 0,
+                   'WWW::Mechanize' => 0,
+                   'strict' => 0,
+                   'warnings' => 0
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [

@@ -26,14 +26,18 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.006"
+            "Getopt::Long" : "0",
+            "WWW::Mechanize" : "0",
+            "perl" : "5.006",
+            "strict" : "0",
+            "warnings" : "0"
          }
       }
    },
    "provides" : {
       "WWW::LinkChecker::Internal" : {
          "file" : "lib/WWW/LinkChecker/Internal.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       }
    },
    "release_status" : "stable",
@@ -42,5 +46,5 @@
          "http://www.opensource.org/licenses/mit-license.php"
       ]
    },
-   "version" : "v0.0.1"
+   "version" : "v0.0.2"
 }
