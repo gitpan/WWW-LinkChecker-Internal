@@ -37,7 +37,7 @@
    "provides" : {
       "WWW::LinkChecker::Internal" : {
          "file" : "lib/WWW/LinkChecker/Internal.pm",
-         "version" : "v0.0.2"
+         "version" : "v0.0.3"
       }
    },
    "release_status" : "stable",
@@ -46,5 +46,5 @@
          "http://www.opensource.org/licenses/mit-license.php"
       ]
    },
-   "version" : "v0.0.2"
+   "version" : "v0.0.3"
 }
