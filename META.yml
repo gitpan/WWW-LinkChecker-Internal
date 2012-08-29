@@ -1,0 +1,24 @@
+---
+abstract: 'Check a web site for broken internal links.'
+author:
+  - 'Shlomi Fish <shlomif@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.39
+dynamic_config: 1
+generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921'
+license: mit
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-LinkChecker-Internal
+provides:
+  WWW::LinkChecker::Internal:
+    file: lib/WWW/LinkChecker/Internal.pm
+    version: v0.0.1
+requires:
+  perl: 5.006
+resources:
+  license: http://www.opensource.org/licenses/mit-license.php
+version: v0.0.1
